@@ -1,0 +1,38 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.mcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.circle{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #4B967D;
+    transition: all .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circlicked{
+    border-radius:1rem !important;
+    width: 12rem;
+    height: 8rem;
+    transition: all.5s;
+}
+.active{
+    width: 10.5rem;
+    height: 6.5rem;
+    border: 1px dashed white;
+    transition: all .5s;
+    display: none;
+}
+.active > 
