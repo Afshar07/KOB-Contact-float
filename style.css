@@ -28,7 +28,7 @@ body{
     width: 12rem;
     height: 8rem;
     transition: all.5s;
-    transform: translate(-3rem, -2rem);
+    transform: translate(-6rem, -5rem);
     transform-origin: top left;
 }
 .active{
