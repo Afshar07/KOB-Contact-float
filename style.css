@@ -33,24 +33,25 @@ body{
 .circlicked{
     border-radius:1rem !important;
     width: 20rem;
-    height: 15rem;
+    height: 12rem;
     transition: all.5s;
     transform: translate(-6rem, -5rem);
     transform-origin: top left;
 }
 .active{
     width: 18rem;
-    height: 13.5rem;
+    height: 10.5rem;
     border: 1px dashed white;
     transition: all .5s;
     display: none;
     position: relative;
+    z-index: 2;
 }
 .cus{
     width: 70%;
-    height: 70%;
+    height: 50%;
     position: absolute;
-    bottom: 3rem;
+    bottom: -0.1rem;
     left: .7rem;
     transition: all .5s;
 }
@@ -59,11 +60,15 @@ body{
     font-family: "mikhak-bold";
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     width: 60%;
+    padding-right: 1rem;
     padding-top: 1.7rem ;
     font-size: 1.4rem;
+}
+.ctxt > p{
+    
 }
 .active > a{
     text-decoration: none;
