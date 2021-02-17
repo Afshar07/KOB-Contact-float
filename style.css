@@ -39,19 +39,19 @@ body {
   transform-origin: top left;
 }
 .active {
-  width: 18rem;
-  height: 6.5rem;
-  border: 1px dashed white;
+  width: 20rem;
+  height: 8rem;
+  /* border: 1px dashed white; */
   transition: all 0.5s;
   display: none;
   position: relative;
   z-index: 2;
 }
 .cus {
-  width: 100%;
+  width: 80%;
   height: 100%;
   position: absolute;
-  bottom: .5rem;
+  bottom: 0rem;
   left: 0.7rem;
   transition: all 0.5s;
 }
@@ -62,7 +62,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 60%;
-  bottom: -4.6rem;
+  bottom: -4rem;
   padding-right: 1rem;
   padding-top: 1.7rem;
   font-size: 1.4rem;
