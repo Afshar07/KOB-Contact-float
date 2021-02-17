@@ -33,14 +33,14 @@ body {
 .circlicked {
   border-radius: 1rem !important;
   width: 20rem;
-  height: 12rem;
+  height: 8rem;
   transition: all.5s;
   transform: translate(-6rem, -5rem);
   transform-origin: top left;
 }
 .active {
   width: 18rem;
-  height: 10.5rem;
+  height: 6.5rem;
   border: 1px dashed white;
   transition: all 0.5s;
   display: none;
@@ -48,31 +48,31 @@ body {
   z-index: 2;
 }
 .cus {
-  width: 70%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  bottom: -0.1rem;
+  bottom: .5rem;
   left: 0.7rem;
   transition: all 0.5s;
 }
 
 .ctxt {
+    position: absolute;
   font-family: "mikhak-bold";
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* justify-content: center; */
   width: 60%;
+  bottom: -4.4rem;
   padding-right: 1rem;
   padding-top: 1.7rem;
   font-size: 1.4rem;
 }
-.ctxt > p {
-}
+
 .active > a {
   text-decoration: none;
   color: white;
 }
+
 
 .container {
   direction: rtl;
