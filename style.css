@@ -1,82 +1,81 @@
-@font-face{
-    font-family: "mikhak-bold";
-    src: url("Mikhak-Bold.woff") format("woff"),
+@font-face {
+  font-family: "mikhak-bold";
+  src: url("Mikhak-Bold.woff") format("woff"),
     url("Mikhak-Bold.woff2") format("woff2");
 }
-html{
-    height: 100%;
+html {
+  height: 100%;
 }
-body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-.mcontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+.mcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
-.circle{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    background-color: #4B967D;
-    transition: all .3s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform-origin: top left;
-    color: white;
-    font-size: 1.6rem;
+.circle {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #4b967d;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: top left;
+  color: white;
+  font-size: 1.6rem;
 }
-.circlicked{
-    border-radius:1rem !important;
-    width: 20rem;
-    height: 12rem;
-    transition: all.5s;
-    transform: translate(-6rem, -5rem);
-    transform-origin: top left;
+.circlicked {
+  border-radius: 1rem !important;
+  width: 20rem;
+  height: 12rem;
+  transition: all.5s;
+  transform: translate(-6rem, -5rem);
+  transform-origin: top left;
 }
-.active{
-    width: 18rem;
-    height: 10.5rem;
-    border: 1px dashed white;
-    transition: all .5s;
-    display: none;
-    position: relative;
-    z-index: 2;
+.active {
+  width: 18rem;
+  height: 10.5rem;
+  border: 1px dashed white;
+  transition: all 0.5s;
+  display: none;
+  position: relative;
+  z-index: 2;
 }
-.cus{
-    width: 70%;
-    height: 50%;
-    position: absolute;
-    bottom: -0.1rem;
-    left: .7rem;
-    transition: all .5s;
-}
-
-.ctxt{
-    font-family: "mikhak-bold";
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
-    width: 60%;
-    padding-right: 1rem;
-    padding-top: 1.7rem ;
-    font-size: 1.4rem;
-}
-.ctxt > p{
-    
-}
-.active > a{
-    text-decoration: none;
-    color: white;
+.cus {
+  width: 70%;
+  height: 50%;
+  position: absolute;
+  bottom: -0.1rem;
+  left: 0.7rem;
+  transition: all 0.5s;
 }
 
-.container{
-    direction: rtl;
-    display: flex;
-    justify-content: space-between;
+.ctxt {
+  font-family: "mikhak-bold";
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 60%;
+  padding-right: 1rem;
+  padding-top: 1.7rem;
+  font-size: 1.4rem;
+}
+.ctxt > p {
+}
+.active > a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
 }
