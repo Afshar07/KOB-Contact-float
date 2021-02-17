@@ -33,15 +33,14 @@ body {
 .circlicked {
   border-radius: 1rem !important;
   width: 20rem;
-  height: 8rem;
+  height: 9rem;
   transition: all.5s;
   transform: translate(-6rem, -5rem);
   transform-origin: top left;
 }
 .active {
   width: 20rem;
-  height: 8rem;
-  /* border: 1px dashed white; */
+  height: 9rem;
   transition: all 0.5s;
   display: none;
   position: relative;
@@ -62,14 +61,20 @@ body {
   display: flex;
   flex-direction: column;
   width: 60%;
-  bottom: -3.5rem;
+  bottom: -2rem;
   padding-right: 1rem;
   padding-top: 1.7rem;
   font-size: 1.3rem;
   text-align: center;
 }
+.contact{
+    position: relative;
+}
+
 .cnumb{
-    width: 100%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 70%;
     height: 10%;
     color: rgb(88, 88, 88);
     background-color: rgb(255, 255, 255);
@@ -79,10 +84,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+
 .active > a {
   text-decoration: none;
   color: white;
 }
+
 
 
 .container {
