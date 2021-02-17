@@ -17,7 +17,7 @@ body{
     height: 4rem;
     border-radius: 50%;
     background-color: #4B967D;
-    transition: all .5s;
+    transition: all .3s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,16 +27,40 @@ body{
 }
 .circlicked{
     border-radius:1rem !important;
-    width: 12rem;
-    height: 8rem;
+    width: 20rem;
+    height: 15rem;
     transition: all.5s;
     transform: translate(-6rem, -5rem);
     transform-origin: top left;
 }
 .active{
-    width: 10.5rem;
-    height: 6.5rem;
+    width: 18rem;
+    height: 13.5rem;
     border: 1px dashed white;
     transition: all .5s;
     display: none;
+    position: relative;
+}
+.cus{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    bottom: 3rem;
+    left: .7rem;
+    transition: all .5s;
+}
+
+.ctxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    padding-top: 1.7rem ;
+}
+
+.container{
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
 }
