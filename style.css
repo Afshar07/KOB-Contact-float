@@ -12,10 +12,10 @@ body {
   padding: 0;
 }
 .mcontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  /* height: 100%; */
 }
 .circle {
   width: 4rem;
@@ -56,34 +56,34 @@ body {
 }
 
 .ctxt {
-    position: absolute;
+  position: absolute;
   font-family: "mikhak-bold";
   display: flex;
   flex-direction: column;
   width: 60%;
   bottom: -2rem;
-    right: -.6rem;
+  right: -0.6rem;
   padding-right: 1rem;
   padding-top: 1.7rem;
   font-size: 1.3rem;
   text-align: center;
 }
-.contacttext{
-    position: relative;
+.contacttext {
+  position: relative;
 }
 
-.cnumb{
-    margin-top: 1rem;
-    margin-right: 1rem;
-    width: 70%;
-    height: 10%;
-    color: rgb(88, 88, 88);
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 0 .5rem 0 .5rem;
-    font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 550;
+.cnumb {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  width: 70%;
+  height: 10%;
+  color: rgb(88, 88, 88);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 0 0.5rem 0 0.5rem;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
 }
 
 .active > a {
@@ -91,10 +91,14 @@ body {
   color: white;
 }
 
-
-
 .contentcontainer {
   direction: rtl;
   display: flex;
   justify-content: space-between;
+}
+@media only screen and (max-width: 500px) {
+  .circlicked,
+  .active {
+    transform: translate(-1rem, -5rem);
+  }
 }
